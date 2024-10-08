@@ -41,7 +41,7 @@ def normalize_embeddings(embeddings):
 
 
 # Cargar y extraer embeddings de las imágenes
-image_folder = 'data'  # Cambia a la ruta donde están tus imágenes
+image_folder = 'faces'  # Cambia a la ruta donde están tus imágenes
 embeddings, labels = load_images_and_extract_embeddings(image_folder)
 
 # Normalizar embeddings
