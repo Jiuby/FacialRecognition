@@ -64,7 +64,7 @@ while True:
         break
 
     # Reducción de la resolución de la imagen
-    frame_resized = cv2.resize(frame, (480, 480))  # Ajustar el tamaño de la imagen para acelerar el análisis
+    frame_resized = cv2.resize(frame, (1280, 720))  # Ajustar el tamaño de la imagen para acelerar el análisis
 
     # Mostrar el frame en la ventana de video
     cv2.imshow('Reconocimiento Facial', frame_resized)
